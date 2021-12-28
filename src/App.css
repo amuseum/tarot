@@ -1,0 +1,325 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.video-banner {
+  position: relative;
+  overflow-x: hidden;
+  min-height: 100vh;
+
+}
+
+.heading {
+  font-size: 19px;
+  font-family: 'Copperplate', serif;
+}
+
+.description {
+  font-size: 18px;
+  font-family: 'Copperplate', serif;
+}
+
+#root {
+  font-size: 18px;
+  background-color: rgba(32, 20, 0, 1);
+  color: #fff;
+}
+
+.description-container {
+  font-size: 18px;
+  font-family: 'Copperplate', serif;
+}
+
+.description-heading {
+  font-size: 30px;
+  font-family: 'Copperplate', serif;
+}
+
+/* Effect 1: Fade in and scale up */
+.modal-effect {
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  opacity: 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+}
+
+.md-show.md-effect-1 .md-content {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.video-banner > *{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-banner h1{
+  text-align: center;
+  margin-top: 350px;
+  color: #fff; 
+  font-family: 'Copperplate', serif;
+  text-decoration: none;
+  font-size: 90px;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, .8);
+}
+
+div .modal-content {
+  background-color: rgba(32, 0, 40, 1.0);
+}
+
+div .modal-content h4, div .modal-content p, div .modal-content h2, div .modal-content h5 {
+  color: #fff;
+  font-family: 'Copperplate', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+div .modal-content {
+  text-align: center;
+  font-family: 'Copperplate', serif;
+  font-size: 20px;
+}
+
+label {
+  color: #fff;
+}
+
+/* Effect 1: Fade in and scale up */
+.modal.fade .modal-dialog {
+-webkit-transform: scale(0.7) !important;
+-moz-transform: scale(0.7) !important;
+-ms-transform: scale(0.7) !important;
+transform: scale(0.7) !important;
+opacity: 0 !important;
+-webkit-transition: all 1s !important;
+-moz-transition: all 1s !important;
+transition: all 1s !important;
+}
+
+.modal.fade.in .modal-dialog {
+-webkit-transform: scale(1) !important;
+-moz-transform: scale(1) !important;
+-ms-transform: scale(1) !important;
+transform: scale(1) !important;
+opacity: 1 !important;
+}
+
+.dropdown {
+  float: right;
+}
+
+#root {
+  background-image: url('http://il6.picdn.net/shutterstock/videos/11313464/thumb/1.jpg')
+}
+
+.App-logo {
+  height: 25px;
+  width: 50px;
+}
+
+.navbar-link {
+  margin-top: 20px;
+}
+
+.img-rounded {
+  border-radius: 6px;
+  height: 190px;
+  width: 130px;
+  padding-bottom: 10px;
+}
+
+.card-back {
+  background-image: url("https://mkleincreative.files.wordpress.com/2016/09/cardback1.jpg"); 
+  background-size: 100% 100%;
+  height: 190px;
+  width: 130px; 
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+/*.majorDeath {
+  background-image: url("");
+}*/
+
+.reverse-image {
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+}
+
+.tarot-board { 
+  position: relative; 
+  width: 760px;
+  min-height: 760px;
+}
+
+.tarot-board img {
+  position: absolute;
+  background-size: 100% 100%;
+  height: 190px;
+  width: 130px; 
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.sideways {
+  transform: rotate(90deg);
+}
+
+.x-offset-0 { 
+  left: 0; 
+}
+
+.x-offset-1 { 
+  left: 95px; 
+}
+
+.x-offset-2 { 
+  left: 190px; 
+}
+
+.x-offset-3 { 
+  left: 285px; 
+}
+
+.x-offset-4 { 
+  left: 380px; 
+}
+
+.x-offset-5 { 
+  left: 475px; 
+}
+
+.x-offset-6 { 
+  left: 570px; 
+}
+
+.x-offset-7 { 
+  left: 665px; 
+}
+
+.y-offset-0 { 
+  top: 0; 
+}
+
+.y-offset-1 { 
+  top: 95px; 
+}
+
+.y-offset-2 { 
+  top: 190px; 
+}
+
+.y-offset-3 { 
+  top: 285px; 
+}
+
+.y-offset-4 { 
+  top: 380px; 
+}
+
+.y-offset-5 { 
+  top: 475px; 
+}
+
+.y-offset-6 { 
+  top: 570px; 
+}
+
+.y-offset-7 { 
+  top: 665px; 
+}
+
+.cups01 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/cups01.jpg"); }
+.cupsPage { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/cupspage.jpg"); }
+.pentacles09 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/pentacles09.jpg"); }
+.cupsQueen { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/cupsqueen.jpg"); }
+.swords09 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/swords09.jpg"); }
+.wands06 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/wands06.jpg"); }
+.swords08 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/swords08.jpg"); }
+.majorMagician { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majormagician.jpg"); }
+.majorDevil { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majordevil.jpg"); }
+.cups10 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/cups10.jpg"); }
+.swords05 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/swords05.jpg"); }
+.cups04 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/cups04.jpg"); }
+.majorTemperance { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majortemperance.jpg"); }
+.wandsQueen { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/wandsqueen.jpg"); }
+.wands02 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/wands02.jpg"); }
+.wands10 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/wands10.jpg"); }
+.majorWheelOfFortune { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majorwheeloffortune.jpg"); }
+.majorDeath { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majordeath.jpg"); }
+.majorHermit { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majorhermit.jpg"); }
+.wands07 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/wands07.jpg"); }
+.wands03 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/wands03.jpg"); }
+.swordsQueen { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/swordsqueen.jpg"); }
+.pentacles07 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/pentacles07.jpg"); }
+.cups09 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/cups09.jpg"); }
+.pentaclesPage { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/pentaclespage.jpg"); }
+.pentacles08 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/pentacles08.jpg"); }
+.pentacles04 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/pentacles04.jpg"); }
+.cupsKing { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/cupsking.jpg"); }
+.swordsKnight { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/swordsknight.jpg"); }
+.swordsPage { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/swordspage.jpg"); }
+.cups03 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/cups03.jpg"); }
+.cups02 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/cups02.jpg"); }
+.majorWorld { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majorworld.jpg"); }
+.majorLovers { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majorlovers.jpg"); }
+.majorHierophant { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majorhierophant.jpg"); }
+.majorStar { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majorstar.jpg"); }
+.majorJudgement { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majorjudgement.jpg"); }
+.swords01 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/swords01.jpg"); }
+.majorHangedMan { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majorhangedman.jpg"); }
+.wands01 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/wands01.jpg"); }
+.swords04 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/swords04.jpg"); }
+.majorEmpress { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majorempress.jpg"); }
+.pentacles10 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/pentacles10.jpg"); }
+.swords06 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/swords06.jpg"); }
+.wandsKnight { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/wandsknight.jpg"); }
+.wands04 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/wands04.jpg"); }
+.majorChariot { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majorchariot.jpg"); }
+.wandsPage { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/wandspage.jpg"); }
+.majorMoon { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majormoon.jpg"); }
+.pentacles03 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/pentacles03.jpg"); }
+.pentacles05 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/pentacles05.jpg"); }
+.wandsKing { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/wandsking.jpg"); }
+.pentacles01 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/pentacles01.jpg"); }
+.cups08 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/cups08.jpg"); }
+.majorEmperor { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majoremperor.jpg"); }
+.majorSun { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majorsun.jpg"); }
+.swordsKing { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/swordsking.jpg"); }
+.majorHighPriestess { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majorhighpriestess.jpg"); }
+.pentacles02 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/pentacles02.jpg"); }
+.majorJustice { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majorjustice.jpg"); }
+.swords03 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/swords03.jpg"); }
+.swords10 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/swords10.jpg"); }
+.pentaclesKing { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/pentaclesking.jpg"); }
+.majorTower { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majortower.jpg"); }
+.pentacles06 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/pentacles06.jpg"); }
+.pentaclesQueen { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/pentaclesqueen.jpg"); }
+.cups06 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/cups06.jpg"); }
+.pentaclesKnight { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/pentaclesknight.jpg"); }
+.swords02 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/swords02.jpg"); }
+.wands09 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/wands09.jpg"); }
+.cups05 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/cups05.jpg"); }
+.cups07 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/cups07.jpg"); }
+.wands08 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/wands08.jpg"); }
+.wands05 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/wands05.jpg"); }
+.swords07 { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/swords07.jpg"); }
+.majorFool { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majorfool.jpg"); }
+.majorStrength { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/majorstrength.jpg"); }
+.cupsKnight { background-image: url("https://mkleincreative.files.wordpress.com/2016/09/cupsknight.jpg"); }
