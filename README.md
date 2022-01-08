@@ -1,12 +1,10 @@
 ## Description 
 
-Our heroku app url: http://shielded-anchorage-81029.herokuapp.com/#
+Live app url: https://www.metacoven.org/tarot/
+
 
 The tarot is a pack of playing cards (most commonly numbering 78), used from the mid-15th century in various parts of Europe to play a group of card games. From the late 18th century until the present time the tarot has also found use by mystics and occultists for divination. Each card has a picture and title that represents a specific concept or archetype. The belief in divination associated with Tarot focuses on the prospect that whatever cards are dealt to the participant will be revelatory. 
 It can also be a tool for self reflection, which will be the primary purpose of the app.
-
-Write a simple tarot card reader using [React](https://facebook.github.io/react).
-Simple Functionality Example: http://wildandbad.com/cards/
 
 ## Context
 
